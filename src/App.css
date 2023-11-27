@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .frc {
+    @apply flex flex-row items-center;
+  }
+  .fcc {
+    @apply flex  flex-col items-center;
+  }
+
+  .btn-outline {
+    @apply border border-[#26405E] p-2 capitalize
+  }
+
+  .btn-filled {
+    @apply text-white p-2 capitalize bg-[#3FC1C9]
+  }
+}
+
+#container {
+  max-width: 1660px;
+  width: 100%;
+  padding-inline: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #3FC1C9;
+}
