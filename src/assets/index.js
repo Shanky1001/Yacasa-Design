@@ -7,6 +7,7 @@ import AboutIMG from "./images/about.png";
 import AboutIMG2 from "./images/about_2.png";
 import ArrowIMG from "./images/arrow.png";
 import CustomerIMG from "./images/customer.png";
+import GalleryIMG from "./images/gallery.png"
 
 export {
   Logo,
@@ -17,5 +18,5 @@ export {
   AboutIMG,
   AboutIMG2,
   ArrowIMG,
-  CustomerIMG,
+  CustomerIMG,GalleryIMG
 };
