@@ -24,7 +24,6 @@
   width: 100%;
   padding-inline: 20px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 nav ul li {
@@ -86,6 +85,10 @@ nav ul li:hover {
   font-size: 18px;
 }
 
+#know-more {
+  box-shadow: 0px 15px 40px -15px #0e2a3e;
+}
+
 .room-type {
   position: relative;
 }
@@ -103,4 +106,32 @@ nav ul li:hover {
 
 .recommended-card {
   border: 1px solid rgba(142, 160, 180, 0.24);
+}
+
+#newsletter {
+  /* position: relative; */
+  overflow: hidden;
+}
+
+#newsletter::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  top: 30%;
+  right: -40px;
+}
+
+#newsletter::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #8DDBE0;
+  border-radius: 50%;
+  top: 35%;
+  right: -30px;
 }

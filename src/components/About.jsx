@@ -78,7 +78,7 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
             dignissimos, delectus ratione laborum quibusdam
           </p>
-          <button className="frc gap-3 text-white bg-[#0E2A3E] text-lg px-4 py-2 rounded-sm">
+          <button id="know-more" className="frc gap-3 text-white bg-[#0E2A3E] text-lg px-4 py-2 rounded-sm">
             Know More
             <FaLongArrowAltRight />
           </button>
