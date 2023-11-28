@@ -4,10 +4,10 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 
 const NavBar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <nav className="frc relative justify-between capitalize text-base w-full py-2">
-      <div style={{ flex: "1" }} className="frc">
+      <div style={{ flex: "1" }} className="frc cursor-pointer">
         <img src={Logo} alt="ycasa-logo" className="w-[40px]" />
         <span className="uppercase text-2xl text-[#1e1e1e] ml-1 ">ycasa</span>
       </div>
@@ -38,7 +38,7 @@ const NavBar = () => {
         />
       )}
       {open && (
-        <div className="fixed fcc justify-center gap-3 top-0 left-0 right-0 bottom-0 bg-slate-300 p-3 rounded-sm z-99 760:hidden">
+        <div className="fixed fcc justify-center gap-3 top-0 left-0 right-0 bottom-0 bg-slate-300 p-3 rounded-sm z-[99] 760:hidden">
           <ul className="fcc justify-center gap-4 text-2xl font-semibold">
             <li>About us</li>
             <li>Testimonials</li>
