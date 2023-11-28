@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="section-about"
-      className="px-[30px] py-[60px] bg-white border flex flex-col-reverse gap-6 900:gap-5 1200:gap-20 900:frc"
+      className="px-[30px] py-[60px] bg-white flex flex-col-reverse gap-6 900:gap-5 1200:gap-20 900:frc"
     >
       <div id="left" style={{ flex: "1" }} className="relative w-full">
         <span className="about-gradient"></span>

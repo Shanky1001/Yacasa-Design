@@ -85,3 +85,22 @@ nav ul li:hover {
   padding: 8px;
   font-size: 18px;
 }
+
+.room-type {
+  position: relative;
+}
+
+.room-type::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #d5dbe2;
+  border-radius: 50%;
+  top: 50%;
+  left: -8px;
+}
+
+.recommended-card {
+  border: 1px solid rgba(142, 160, 180, 0.24);
+}
